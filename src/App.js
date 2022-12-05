@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import hellWorld from './components/helloWorld';
 
 function App() {
+  const name = 'Fabiano Gostoso'
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Olá {name}</h1>
+      <h1>Soma: {2+2}</h1>
+      <hellWorld></hellWorld>
     </div>
   );
 }
