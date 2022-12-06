@@ -1,14 +1,14 @@
 import './App.css';
-import hellWorld from './components/helloWorld';
+import BtnSomar from './components/HelloWorld.js';
 
 function App() {
-  const name = 'Fabiano Gostoso'
+  const name = 'Fabiano'
 
   return (
     <div className="App">
       <h1>Olá {name}</h1>
       <h1>Soma: {2+2}</h1>
-      <hellWorld></hellWorld>
+      <BtnSomar/>
     </div>
   );
 }

@@ -1,9 +1,7 @@
-function helloWorld() {
+function BtnSomar() {
     return(
-        <div>
-            <h1>Meu primeiro componente</h1>
-        </div>
+        <button>somar</button>
     )
 }
 
-export default hellWorld;
+export default BtnSomar;
